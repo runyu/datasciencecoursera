@@ -1,7 +1,7 @@
 makeVector<-function(x= numeric()){
   m<-NULL
   set<-function(y){
-    x<<-y #set(y)后，x=y,m=null
+    x<<-y
     m<<-NULL
   }
   get <-function() x
