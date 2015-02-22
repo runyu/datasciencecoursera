@@ -14,7 +14,7 @@ makeVector<-function(x= numeric()){
 cachemean<-function(x, ...){
   m<-x$getmean()
   if(!is.null(m)){
-    message("getting cached data")
+    message("cached data")
     return(m)
   }
   data<-x$get()
